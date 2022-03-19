@@ -36,8 +36,8 @@ namespace modul4_1302200010
             int i = 0;
             foreach (T Data in storedData)
             {
-                Console.Write(Data +" ");
-                Console.WriteLine(inputDates[i]);
+                Console.Write("Data " + (i + 1) + " berisi: " + Data);
+                Console.WriteLine(" yang disimpan pada waktu UTC : " + inputDates[i]);
                 i++;
             }
         }
