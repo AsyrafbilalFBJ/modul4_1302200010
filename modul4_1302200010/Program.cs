@@ -33,13 +33,12 @@ namespace modul4_1302200010
         }
         public void PrintAllData()
         {
+            int i = 0;
             foreach (T Data in storedData)
             {
-                Console.WriteLine(Data);
-            }
-            foreach (DateTime DataDate in inputDates)
-            {
-                Console.WriteLine(DataDate);
+                Console.Write(Data +" ");
+                Console.WriteLine(inputDates[i]);
+                i++;
             }
         }
     }
